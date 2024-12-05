@@ -1,0 +1,31 @@
+Loading baseline model...
+
+Computing baseline metrics...
+
+Evaluation Metrics:
+--------------------------------------------------
+Model Size: 474.70 MB (0/148 params quantized)
+Inference Latency: 11.74 ± 0.34 ms
+Perplexity: 49.27
+
+Performing whole-model quantization...
+
+Whole-Model Quantization Metrics:
+
+Evaluation Metrics:
+--------------------------------------------------
+Model Size: 119.02 MB (50/148 params quantized)
+Inference Latency: 11.76 ± 0.31 ms
+Perplexity: 57.51
+
+Resetting model for selective quantization...
+
+Performing selective quantization...
+
+Selective Quantization Metrics:
+
+Evaluation Metrics:
+--------------------------------------------------
+Model Size: 231.70 MB (48/148 params quantized)
+Inference Latency: 11.59 ± 0.36 ms
+Perplexity: 56.82

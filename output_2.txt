@@ -1,0 +1,26 @@
+Quantization Comparison
+--------------------------------------------------
+
+Baseline Model (FP32):
+
+Model Size: 474.70 MB (fp32 quantization)
+Inference Latency: 11.70 ± 0.30 ms
+Perplexity: 49.27
+
+8-bit Quantization:
+
+Model Size: 118.68 MB (8-bit quantization)
+Inference Latency: 55.63 ± 1.94 ms
+Perplexity: 49.50
+
+4-bit FP4 Quantization:
+
+Model Size: 39.09 MB (4-bit quantization)
+Inference Latency: 24.22 ± 0.34 ms
+Perplexity: 57.72
+
+4-bit NF4 Quantization:
+
+Model Size: 39.09 MB (4-bit quantization)
+Inference Latency: 24.05 ± 0.34 ms
+Perplexity: 52.91
